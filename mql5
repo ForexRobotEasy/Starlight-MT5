@@ -1,0 +1,125 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                            Starlight MT5         |
+//|                                        forexroboteasy.com        |
+//|                                           Forex Robot Easy Team  |
+//+------------------------------------------------------------------+
+
+// Include necessary libraries and dependencies
+
+#include <Trade\Trade.mqh>
+#include <Trade\PositionInfo.mqh>
+#include <Trade\SymbolInfo.mqh>
+#include <Timeseries\SeriesInfo.mqh>
+#include <Algorithms\MeanReverse.mqh>
+#include <RiskManagement\RiskManager.mqh>
+#include <NewsFilter\NewsFilter.mqh>
+#include <OneChartSetup\OneChartSetup.mqh>
+
+// Define global variables
+// ...
+
+//+------------------------------------------------------------------+
+//| Custom functions                                                  |
+//+------------------------------------------------------------------+
+
+// Function to generate entry and exit signals based on mean-reverse strategy
+void GenerateSignals()
+{
+    // Implementation of mean-reverse strategy
+    // ...
+}
+
+// Function to calculate and manage position sizes
+void CalculatePositionSizes()
+{
+    // Position sizing calculation and management
+    // ...
+}
+
+// Function to monitor and adjust stop-loss and take-profit levels
+void MonitorStopLossTakeProfit()
+{
+    // Stop-loss and take-profit monitoring and adjustment
+    // ...
+}
+
+// Function for real-time market data analysis and decision-making
+void RealTimeMarketAnalysis()
+{
+    // Market data analysis and decision-making
+    // ...
+}
+
+// Function to integrate with relevant APIs for data retrieval and order execution
+void IntegrateWithAPIs()
+{
+    // API integration for data retrieval and order execution
+    // ...
+}
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                    |
+//+------------------------------------------------------------------+
+void OnInit()
+{
+    // Initialize necessary components and variables
+    // ...
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                  |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Deinitialize and clean up resources
+    // ...
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                              |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Generate trading signals
+    GenerateSignals();
+    
+    // Calculate position sizes
+    CalculatePositionSizes();
+    
+    // Monitor and adjust stop-loss and take-profit levels
+    MonitorStopLossTakeProfit();
+    
+    // Perform real-time market analysis and decision-making
+    RealTimeMarketAnalysis();
+    
+    // Integrate with relevant APIs for data retrieval and order execution
+    IntegrateWithAPIs();
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                             |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+    // Start the expert advisor
+    // ...
+}
+
+//+------------------------------------------------------------------+
+//| Expert stop function                                              |
+//+------------------------------------------------------------------+
+void OnStop()
+{
+    // Stop the expert advisor
+    // ...
+}
+
+//+------------------------------------------------------------------+
+//| Expert error function                                             |
+//+------------------------------------------------------------------+
+void OnError(const int error_code, const string error_message)
+{
+    // Handle any errors that occur during trading
+    // ...
+}
